@@ -18,10 +18,10 @@ DS_residuals_binary <- function(y, alpha_hat) {
 
 ################################################################################
 
-file_path_1 <- "/Users/clementeferrer/Documents/Extreme Values PhD Project/Paper Neural Modeling of Conditional Extremes/Python Codes/Percentile 15.csv"
-file_path_2 <- "/Users/clementeferrer/Documents/Extreme Values PhD Project/Paper Neural Modeling of Conditional Extremes/Python Codes/Percentile 40.csv"
-file_path_3 <- "/Users/clementeferrer/Documents/Extreme Values PhD Project/Paper Neural Modeling of Conditional Extremes/Python Codes/Percentile 60.csv"
-file_path_4 <- "/Users/clementeferrer/Documents/Extreme Values PhD Project/Paper Neural Modeling of Conditional Extremes/Python Codes/Percentile 85.csv"
+file_path_1 <- "Percentile 15.csv"
+file_path_2 <- "Percentile 40.csv"
+file_path_3 <- "Percentile 60.csv"
+file_path_4 <- "Percentile 85.csv"
 
 df_1 <- read.csv(file_path_1)
 df_2 <- read.csv(file_path_2)
