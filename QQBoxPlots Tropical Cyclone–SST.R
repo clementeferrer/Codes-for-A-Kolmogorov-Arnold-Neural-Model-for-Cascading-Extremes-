@@ -29,7 +29,7 @@ DS_residuals_multinoulli <- function(df) {
 
 ################################################################################
 
-file_path <- "/Users/clementeferrer/Documents/Extreme Values PhD Project/Paper Neural Modeling of Conditional Extremes/Python Codes/residuals_app2.csv"
+file_path <- "residuals_app2.csv"
 df <- read.csv(file_path)
 residuals <- DS_residuals_multinoulli(df)
 
